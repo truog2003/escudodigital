@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Sobre o Projeto | Escudo Digital</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <style>
+
+    :root{
+      --primary:#0b3d91;
+      --secondary:#2d6cdf;
+      --light:#f5f8ff;
+      --success:#2ea44f;
+    }
+
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+      color:#333;
+    }
+
+    .navbar{
+      background:white;
+      box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    }
+
+    .navbar-brand{
+      font-weight:bold;
+      color:var(--primary);
+      font-size:1.5rem;
+    }
+
+    .hero{
+      background:linear-gradient(135deg,#f5f8ff,#dfeaff);
+      padding:80px 0;
+    }
+
+    .hero h1{
+      color:var(--primary);
+      font-size:3rem;
+      font-weight:bold;
+    }
+
+    .hero p{
+      font-size:1.2rem;
+      margin-top:20px;
+    }
+
+    .section-title{
+      text-align:center;
+      margin-bottom:50px;
+    }
+
+    .section-title h2{
+      color:var(--primary);
+      font-weight:bold;
+    }
+
+    .info-box{
+      background:white;
+      border-radius:18px;
+      padding:35px;
+      box-shadow:0 4px 15px rgba(0,0,0,0.05);
+      height:100%;
+      transition:0.3s;
+    }
+
+    .info-box:hover{
+      transform:translateY(-5px);
+    }
+
+    .info-box i{
+      font-size:3rem;
+      color:var(--secondary);
+      margin-bottom:20px;
+    }
+
+    .impact-section{
+      background:linear-gradient(135deg,#0b3d91,#2d6cdf);
+      color:white;
+      padding:80px 0;
+    }
+
+    .impact-card{
+      text-align:center;
+      padding:20px;
+    }
+
+    .impact-card h2{
+      font-size:3rem;
+      font-weight:bold;
+    }
+
+    .ods-card{
+      background:white;
+      border-radius:15px;
+      padding:25px;
+      text-align:center;
+      height:100%;
+      box-shadow:0 3px 10px rgba(0,0,0,0.05);
+    }
+
+    .ods-card h5{
+      color:var(--primary);
+      font-weight:bold;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      padding:40px 0;
+    }
+
+    footer a{
+      color:#cbd5e1;
+      text-decoration:none;
+    }
+
+    footer a:hover{
+      color:white;
+    }
+
+    @media(max-width:768px){
+
+      .hero{
+        text-align:center;
+      }
+
+      .hero h1{
+        font-size:2.2rem;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+
+  <div class="container">
+
+    <a class="navbar-brand" href="index.html">
+      <i class="bi bi-shield-check"></i>
+      Escudo Digital
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+
+      <ul class="navbar-nav ms-auto">
+
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Início</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="protecao.html">Proteção</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="aprenda.html">Aprenda</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="ajuda.html">Ajuda</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="sobre.html">Sobre</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+
+  <div class="container">
+
+    <div class="row align-items-center">
+
+      <div class="col-lg-6">
+
+        <h1>
+          Sobre o Escudo Digital
+        </h1>
+
+        <p>
+          Uma iniciativa comunitária de segurança cibernética acessível, voltada à conscientização, capacitação e proteção digital de usuários e pequenos negócios.
+        </p>
+
+      </div>
+
+      <div class="col-lg-6 text-center mt-5 mt-lg-0">
+
+        <img
+          src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?q=80&w=1200&auto=format&fit=crop"
+          class="img-fluid rounded-4 shadow"
+          alt="Projeto Social"
+        >
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- MISSÃO -->
+<section class="py-5">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>
+        Nossa missão
+      </h2>
+
+      <p>
+        Democratizar o acesso à segurança digital utilizando tecnologia open source e apoio comunitário.
+      </p>
+
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+
+        <div class="info-box">
+
+          <i class="bi bi-shield-lock"></i>
+
+          <h5>
+            Segurança acessível
+          </h5>
+
+          <p>
+            Oferecer ferramentas gratuitas e acessíveis para usuários com baixo conhecimento técnico.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="info-box">
+
+          <i class="bi bi-people"></i>
+
+          <h5>
+            Apoio comunitário
+          </h5>
+
+          <p>
+            Criar uma rede colaborativa de voluntários para ajudar a comunidade.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-4">
+
+        <div class="info-box">
+
+          <i class="bi bi-book"></i>
+
+          <h5>
+            Educação digital
+          </h5>
+
+          <p>
+            Promover conscientização sobre riscos digitais e boas práticas de segurança.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- IMPACTO -->
+<section class="impact-section">
+
+  <div class="container">
+
+    <div class="section-title text-white">
+
+      <h2>
+        Impacto social esperado
+      </h2>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-3">
+
+        <div class="impact-card">
+
+          <h2>500+</h2>
+
+          <p>
+            Usuários alcançados
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="impact-card">
+
+          <h2>50+</h2>
+
+          <p>
+            Pequenos negócios atendidos
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="impact-card">
+
+          <h2>100+</h2>
+
+          <p>
+            Conteúdos educativos
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="impact-card">
+
+          <h2>30+</h2>
+
+          <p>
+            Voluntários participantes
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- ODS -->
+<section class="py-5 bg-light">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>
+        Objetivos de Desenvolvimento Sustentável
+      </h2>
+
+      <p>
+        O projeto está alinhado aos ODS da ONU.
+      </p>
+
+    </div>
+
+    <div class="row g-4">
+
+      <div class="col-md-3">
+
+        <div class="ods-card">
+
+          <h5>
+            ODS 4
+          </h5>
+
+          <p>
+            Educação de qualidade e inclusão digital.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="ods-card">
+
+          <h5>
+            ODS 8
+          </h5>
+
+          <p>
+            Trabalho digno e proteção de pequenos negócios.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="ods-card">
+
+          <h5>
+            ODS 9
+          </h5>
+
+          <p>
+            Inovação e acesso à tecnologia.
+          </p>
+
+        </div>
+
+      </div>
+
+      <div class="col-md-3">
+
+        <div class="ods-card">
+
+          <h5>
+            ODS 16
+          </h5>
+
+          <p>
+            Fortalecimento da segurança digital e proteção da informação.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- EXTENSÃO -->
+<section class="py-5">
+
+  <div class="container">
+
+    <div class="section-title">
+
+      <h2>
+        Projeto de Extensão Universitária
+      </h2>
+
+    </div>
+
+    <div class="row justify-content-center">
+
+      <div class="col-lg-10">
+
+        <div class="info-box">
+
+          <p>
+            O Escudo Digital foi desenvolvido como projeto de extensão universitária na trilha de Empreendedorismo, com foco em inovação social, inclusão digital e democratização do acesso à segurança cibernética.
+          </p>
+
+          <p>
+            A iniciativa busca conectar tecnologia, educação e impacto social, promovendo conscientização digital e apoio comunitário por meio de ferramentas open source e participação voluntária.
+          </p>
+
+          <p>
+            O projeto também contribui para a capacitação tecnológica de estudantes e da comunidade, incentivando o uso responsável da tecnologia e a proteção digital acessível.
+          </p>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- CTA -->
+<section class="py-5 bg-light">
+
+  <div class="container text-center">
+
+    <h2 class="fw-bold text-primary">
+      Faça parte do Escudo Digital
+    </h2>
+
+    <p class="mt-3">
+      Ajude a promover segurança digital acessível para todos.
+    </p>
+
+    <div class="mt-4">
+
+      <a href="voluntarios.html" class="btn btn-primary btn-lg me-2">
+        Quero Ser Voluntário
+      </a>
+
+      <a href="protecao.html" class="btn btn-outline-primary btn-lg">
+        Proteger Meu Computador
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+<!-- FOOTER -->
+<footer>
+
+  <div class="container">
+
+    <div class="row">
+
+      <div class="col-lg-6">
+
+        <h4>
+          Escudo Digital
+        </h4>
+
+        <p class="mt-3">
+          Plataforma Comunitária de Segurança Cibernética Acessível.
+        </p>
+
+      </div>
+
+      <div class="col-lg-3 mt-4 mt-lg-0">
+
+        <h5>
+          Navegação
+        </h5>
+
+        <ul class="list-unstyled">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="aprenda.html">Aprenda</a></li>
+          <li><a href="ajuda.html">Ajuda</a></li>
+        </ul>
+
+      </div>
+
+      <div class="col-lg-3 mt-4 mt-lg-0">
+
+        <h5>
+          Contato
+        </h5>
+
+        <p>
+          contato@escudodigital.org
+        </p>
+
+      </div>
+
+    </div>
+
+    <hr>
+
+    <div class="text-center">
+      © 2026 Escudo Digital
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
