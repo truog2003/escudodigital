@@ -113,6 +113,21 @@
       font-weight:bold;
     }
 
+    .btn-custom{
+      background:var(--primary);
+      color:white;
+      border:none;
+      padding:14px 28px;
+      border-radius:10px;
+      font-weight:bold;
+      text-decoration:none;
+    }
+
+    .btn-custom:hover{
+      background:var(--secondary);
+      color:white;
+    }
+
     footer{
       background:#0f172a;
       color:white;
@@ -169,15 +184,19 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="protecao.html">Proteção</a>
-        </li>
-
-        <li class="nav-item">
           <a class="nav-link" href="aprenda.html">Aprenda</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="ajuda.html">Ajuda</a>
+          <a class="nav-link" href="protecao.html">Proteção</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="ajuda.html">Preciso de Ajuda</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="voluntarios.html">Voluntários</a>
         </li>
 
         <li class="nav-item">
@@ -208,6 +227,15 @@
         <p>
           Uma iniciativa comunitária de segurança cibernética acessível, voltada à conscientização, capacitação e proteção digital de usuários e pequenos negócios.
         </p>
+
+        <div class="mt-4">
+
+          <a href="voluntarios.html" class="btn btn-custom">
+            <i class="bi bi-people"></i>
+            Participar da Comunidade
+          </a>
+
+        </div>
 
       </div>
 
@@ -260,6 +288,10 @@
             Oferecer ferramentas gratuitas e acessíveis para usuários com baixo conhecimento técnico.
           </p>
 
+          <a href="protecao.html" class="btn btn-outline-primary mt-3">
+            Conhecer Proteção
+          </a>
+
         </div>
 
       </div>
@@ -278,6 +310,10 @@
             Criar uma rede colaborativa de voluntários para ajudar a comunidade.
           </p>
 
+          <a href="voluntarios.html" class="btn btn-outline-primary mt-3">
+            Ser Voluntário
+          </a>
+
         </div>
 
       </div>
@@ -295,6 +331,10 @@
           <p>
             Promover conscientização sobre riscos digitais e boas práticas de segurança.
           </p>
+
+          <a href="aprenda.html" class="btn btn-outline-primary mt-3">
+            Aprender Mais
+          </a>
 
         </div>
 
@@ -528,7 +568,7 @@
 
     <div class="mt-4">
 
-      <a href="voluntarios.html" class="btn btn-primary btn-lg me-2">
+      <a href="voluntarios.html" class="btn btn-custom btn-lg me-2">
         Quero Ser Voluntário
       </a>
 
@@ -570,7 +610,9 @@
         <ul class="list-unstyled">
           <li><a href="index.html">Início</a></li>
           <li><a href="aprenda.html">Aprenda</a></li>
+          <li><a href="protecao.html">Proteção</a></li>
           <li><a href="ajuda.html">Ajuda</a></li>
+          <li><a href="voluntarios.html">Voluntários</a></li>
         </ul>
 
       </div>
